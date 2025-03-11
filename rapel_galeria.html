@@ -32,11 +32,9 @@
                             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Nuestros Socios</a>
                             <ul class="dropdown-menu">
                                 <h5>Constructoras</h5>
-                                <li><a class="dropdown-item"
-                                        href="arenaltda_index.html">
+                                <li><a class="dropdown-item" href="arenaltda_index.html">
                                         Arena LTDA Limitada</a></li>
-                                <li><a class="dropdown-item"
-                                        href="corralones_index.html">
+                                <li><a class="dropdown-item" href="corralones_index.html">
                                         Corralones SPA</a></li>
                                 <li><a class="dropdown-item" href="brisas_index.html">
                                         Las Brisas SPA</a>
@@ -48,8 +46,7 @@
                                 <li><a class="dropdown-item" href="arenaspa_index.html">
                                         Arena SPA</a></li>
                                 <h5>Importadora</h5>
-                                <li><a class="dropdown-item"
-                                        href="importadora_index.html">San Vicente SPA</a>
+                                <li><a class="dropdown-item" href="importadora_index.html">San Vicente SPA</a>
                                 </li>
                             </ul>
                         </li>
@@ -67,7 +64,7 @@
 
     <div class="container p-5" style="margin-bottom: 100px;">
         <h4>Plazas y Areas Verdes</h4>
-        <div class="gallery justify-content-center" id="galleryplazas">
+        <div class="gallery justify-content-center" id="gallerySedes">
         </div>
     </div>
 
@@ -106,8 +103,7 @@
                         <div class="row socios pb-5 text-center">
                             <div class="col-md-4 col-12">
                                 <h6 class="dropdown-header">Constructoras</h6>
-                                <a class="dropdown-item"
-                                    href="arenaltda_index.html">
+                                <a class="dropdown-item" href="arenaltda_index.html">
                                     Arena LTDA Limitada</a>
                                 <a class="dropdown-item" href="corralones_index.html">
                                     Corralones SPA</a>
@@ -168,12 +164,13 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-        const galleryplazas = document.getElementById("galleryplazas");
-        for (let i = 1; i <= 74; i++) {
+        const gallerySedes = document.getElementById("gallerySedes");
+        for (let i = 1; i <= 32; i++) {
             let img = document.createElement("img");
-            img.src = `img/Plazas y Areas Verdes/1 (${i}).jpg`;
+            img.src = `https://raw.githubusercontent.com/iNewZak/imagenesweb/main/RapelSPA/Plazas_Areas_Verdes/1(${i}).jpg`;
             img.alt = `Imagen ${i}`;
-            galleryplazas.appendChild(img);
+            console.log("Cargando imagen:", img.src);
+            gallerySedes.appendChild(img);
         }
     </script>
 </body>

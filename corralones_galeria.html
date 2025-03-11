@@ -60,7 +60,8 @@
         <div class="container p-5">
             <div class="row">
                 <div class="col-md-4 col-12">
-                    <img src="https://raw.githubusercontent.com/iNewZak/imagenesweb/refs/heads/main/CorralonesSPA/logocorralones.png" alt="Logo" class="logofooter">
+                    <img src="https://raw.githubusercontent.com/iNewZak/imagenesweb/refs/heads/main/CorralonesSPA/logocorralones.png"
+                        alt="Logo" class="logofooter">
                 </div>
                 <div class="col-md-8 col-12" style="align-content: center;">
                     <div class="row">
@@ -131,11 +132,12 @@
         const gallerySedes = document.getElementById("gallerySedes");
         for (let i = 1; i <= 32; i++) {
             let img = document.createElement("img");
-            img.src = `img/Sedes y Centros Comunitarios/1 (${i}).jpg`;
+            img.src = `https://raw.githubusercontent.com/iNewZak/imagenesweb/main/CorralonesSPA/Sedes_Centros_Comunitarios/1(${i}).jpg`;
             img.alt = `Imagen ${i}`;
+            console.log("Cargando imagen:", img.src);
             gallerySedes.appendChild(img);
         }
-        </script>
+    </script>
 </body>
 
 </html>

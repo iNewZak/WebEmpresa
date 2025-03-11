@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif !important;
     margin: 0;
     padding: 0;
     display: flex;
@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif !important;
     color: white;
     text-align: end;
     position: relative;
@@ -16,12 +16,22 @@ header {
 }
 
 footer {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif !important;
     color: white;
     text-align: center;
     margin-top: auto;
     position: relative;
     z-index: 1;
+}
+
+footer h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+    font-weight: 900 !important;
 }
 
 .text_end {

@@ -1,0 +1,27 @@
+div#map {
+    height: 100%;
+    width: 100%;
+}
+
+body p,
+li {
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body h3,
+h1 {
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #103c5c;
+}
+
+.icon {
+    height: 15px;
+    width: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+a[aria-expanded="true"] .icon {
+    transform: rotate(180deg);
+}

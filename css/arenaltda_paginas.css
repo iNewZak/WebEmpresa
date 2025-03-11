@@ -1,0 +1,142 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #181818;
+    color: #ECF0F1;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #103c5c;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+}
+
+header a {
+    color: #ffffff !important;
+}
+
+header h6 {
+    font-size: 20px !important;
+    margin-left: 5%;
+    font-weight: bold;
+    color: #ffffff !important;
+}
+
+.subheader {
+    background: linear-gradient(to cicle, #103c5c, #1F5A89);
+}
+
+
+
+.nombre_empresa {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer {
+    background-color: #103c5c;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    margin-top: auto;
+    padding: 10px 0;
+}
+
+footer a {
+    text-decoration: none !important;
+    color: #FFFFFF;
+}
+
+.degradado {
+    background: linear-gradient(to bottom, #2b6a92, #103c5c);
+}
+
+.color {
+    color: #FFFFFF;
+}
+
+.bordes {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.full_center {
+    align-content: center
+}
+
+.navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link:hover {
+    color: white;
+}
+
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.whatsapp-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50% 50% 50% 50%;
+    background-color: #32d36d;
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-icon:hover {
+    transform: scale(1.1);
+}
+
+.blurred-background {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff3f;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.blurred-background2 {
+    background-color: #ffffff3f;
+    backdrop-filter: blur(2px);
+    color: white;
+}
+
+.dropdown-item {
+    color: #ffffff !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #335e7d !important;
+    color: white !important;
+}
+
+.dropdown-item:active {
+    background-color: #335e7d !important;
+    color: white !important;
+}

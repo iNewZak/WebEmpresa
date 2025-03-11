@@ -1,0 +1,135 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif !important;
+    background-color: #181818;
+    color: #ECF0F1;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    font-family: 'Times New Roman', Times, serif !important;
+    background: radial-gradient(circle, #f5b042, #f39c12, #e77e23, #d15400, #bf3a2b);
+    font-weight: bold;
+    color: #ECF0F1;
+    text-align: end;
+    position: relative;
+    z-index: 1;
+    padding: 10px;
+}
+
+header h6 {
+    margin-left: 5%;
+    font-weight: bold;
+    color: #bf3a2b !important;
+}
+
+header ul li ul {
+    background-color: #f5b042 !important;
+}
+
+header ul a {
+    font-size: 15px;
+}
+
+header a {
+    color: #ffffff !important;
+    font-size: 18px !important;
+}
+
+footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    background: radial-gradient(circle, #f5b042, #f39c12, #e77e23, #d15400);
+    font-weight: bold;
+    color: #ECF0F1;
+    margin-top: auto;
+    padding: 10px 0;
+}
+
+footer a {
+    color: white !important;
+    font-size: 13px;
+}
+
+.dropdown-menu {
+    background-color: #f5b042 !important;
+    border: none;
+}
+
+.dropdown-item {
+    color: #ffffff !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #d15400 !important;
+    color: #ffffff !important;
+}
+
+.dropdown-item:active {
+    background-color: #bf3a2b !important;
+    color: #ffffff !important;
+}
+
+.icon {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin-right: 8px;
+    color: inherit;
+}
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 5%;
+    right: 20px;
+    z-index: 1000;
+}
+
+.whatsapp-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50% 50% 50% 50%;
+    background-color: #32d36d;
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-icon:hover {
+    transform: scale(1.1);
+}
+
+a {
+    text-decoration: none !important;
+    color: #333333 !important;
+}
+
+.socios h6 {
+    font-weight: 900;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+    color: #f5b042 !important;
+    font-weight: 900 !important;
+}
+
+footer h5,
+h6 {
+    color: #bf3a2b !important;
+    font-weight: 900 !important;
+}

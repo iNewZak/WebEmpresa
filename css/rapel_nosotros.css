@@ -1,0 +1,28 @@
+.imgabout {
+    height: 100%;
+    width: 100%;
+}
+
+.infojefes li {
+    padding: 5px;
+}
+
+.derecha {
+    margin-left: 10%;
+}
+
+.rapel {
+    font-weight: 900;
+    margin-left: 10%;
+}
+
+@media (max-width: 768px) {
+    .derecha {
+        margin-left: 0%;
+    }
+
+    .infojefes li {
+        padding: 5px;
+        font-size: 12px;
+    }
+}

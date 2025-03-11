@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Constructora Corralones SPA</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/paginas.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#socios">Nuestros Socios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container p-5" style="margin-top: 100px; margin-bottom: 100px;">
+        <div class="row justify-content-center">
+            <div class="col-md-4 col-12">
+                <img src="/img/logocorralones2.png" class="logo">
+            </div>
+            <div class="col-md-7 col-12 align-content-center">
+                <h3>¿Quienes somos?</h3>
+                <p>Somos una empresa constructora que se especializa en el diseño y construcción de sedes sociales y
+                    centros
+                    comunitarios. Creamos espacios que inspiran conexión, participación y desarrollo social,
+                    adaptándonos a las necesidades únicas de cada comunidad.</p>
+                <p class="color2 text-end">¡Construimos espacios que unen a las comunidades!
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container p-5 beneficios">
+        <div>
+            <h4>Beneficios</h4>
+        </div>
+        <div class="row justify-content-center text-center">
+            <div class="col-md-4 col-6">
+                <div class="card">
+                    <h6>Calidad Garantizada ✅</h6>
+                    <p>
+                        Obras con altos estándares técnicos y materiales duraderos.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 col-6">
+                <div class="card">
+                    <h6>Eficiencia y Cumplimiento 🚀</h6>
+                    <p>
+                        Entregamos proyectos en los plazos y costos establecidos.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 col-6">
+                <div class="card">
+                    <h6>Innovación Tecnológica 🔧</h6>
+                    <p>
+                        Aplicamos nuevas herramientas para optimizar cada construcción.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 col-6">
+                <div class="card">
+                    <h6>Diseño Funcional y Seguro 🏗️</h6>
+                    <p>
+                        Espacios accesibles, modernos y adaptados a las necesidades
+                        comunitarias.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 col-6">
+                <div class="card">
+                    <h6> Compromiso Sostenible 🌱</h6>
+                    <p>
+                        Construcción responsable con el medio ambiente y la comunidad.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 col-6">
+                <div class="card">
+                    <h6> Atención Personalizada 🤝</h6>
+                    <p>
+                        Acompañamiento en todo el proceso para asegurar la satisfacción del
+                        cliente.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container proyecto p-5">
+        <h4 class="p-3">Ejemplo de Proyectos</h4>
+        <div class="row justify-content-center">
+            <div class="col-md-4 col-12 pb-2">
+                <img id="myImg1" src="img/Planos/1 (1).jpeg" alt="Proyecto 1">
+            </div>
+            <div class="col-md-4 col-12 pb-2">
+                <img id="myImg2" src="img/Planos/1 (2).jpeg" alt="Proyecto 2">
+            </div>
+        </div>
+
+        <div id="myModal" class="modal">
+            <div>
+                <span class="close">&times;</span>
+                <div id="caption"></div>
+                <img class="modal-content" id="imgModal">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid contactanos">
+        <div class="container p-5">
+            <h2>¿Quieres saber más sobre nosotros?</h2>
+            <p>Contáctanos y descubre cómo podemos ayudarte.</p>
+            <div class="text-end">
+                <a href="contacto.html" class="btn btn-lg"
+                    style="background-color: #E07A5F; color: #ECF0F1; font-weight: 700;">
+                    Contáctanos
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container p-5 tiposedes">
+        <div>
+            <h4>Galeria</h4>
+        </div>
+        <div class="row text-center justify-content-center">
+            <div class="col-md-3 col-12 p-4">
+                <img src="img/Sedes y Centros Comunitarios/1 (16).jpg">
+            </div>
+            <div class="col-md-3 col-12 p-4">
+                <img src="img/Sedes y Centros Comunitarios/1 (9).jpg">
+            </div>
+            <div class="col-md-3 col-12 p-4">
+                <img src="img/Sedes y Centros Comunitarios/1 (14).jpg">
+            </div>
+        </div>
+        <div class="text-end">
+            <a href="galeria.html">Ver Galeria
+                &raquo;</a>
+        </div>
+    </div>
+
+    <div class="container p-5">
+        <h4>Preguntas Frecuentes</h4>
+        <div class="row">
+            <div class="col-md-6 col-12">
+                <div class="row preguntas">
+                    <div class="col-12">
+                        <div class="card p-2">
+                            <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#Example1"
+                                aria-expanded="false" aria-controls="Example1" style="text-decoration: none;">
+                                <span>&#x276F;</span> ¿Qué servicios ofrece su empresa?
+                            </button>
+                            <div class="collapse" id="Example1">
+                                Nuestra empresa se especializa en la construcción de sedes sociales y centros
+                                comunitarios, desarrollando proyectos que fomentan el bienestar y la integración social.
+                                Trabajamos en el diseño, edificación y mejoramiento de infraestructuras bajo los
+                                programas D.S. 255 - Programa de Protección del Patrimonio Familiar y D.S. 27 - Hogar
+                                Mejor.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="card p-2">
+                            <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#Example2"
+                                aria-expanded="false" aria-controls="Example2" style="text-decoration: none;">
+                                <span>&#x276F;</span> ¿Qué tipo de materiales utilizan en sus proyectos?
+                            </button>
+                            <div class="collapse" id="Example2">
+                                Utilizamos materiales de alta calidad y durabilidad, como hormigón armado, estructuras
+                                metálicas, revestimientos resistentes y sistemas eficientes de aislamiento térmico y
+                                acústico. Cumplimos con todas las normativas vigentes para garantizar seguridad,
+                                accesibilidad y funcionalidad en cada proyecto.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="card p-2">
+                            <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#Example3"
+                                aria-expanded="false" aria-controls="Example3" style="text-decoration: none;">
+                                <span>&#x276F;</span> ¿Cuánto cuesta construir una sede social o centro comunitario?
+                            </button>
+                            <div class="collapse" id="Example3">
+                                El costo depende del tamaño, la ubicación y los materiales requeridos. Ofrecemos
+                                cotizaciones personalizadas, basadas en un estudio técnico detallado. Contáctanos para
+                                recibir una evaluación acorde a las necesidades de tu comunidad.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <div class="row preguntas">
+                    <div class="col-12">
+                        <div class="card p-2">
+                            <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#Example4"
+                                aria-expanded="false" aria-controls="Example4" style="text-decoration: none;">
+                                <span>&#x276F;</span> ¿Cuánto tiempo toma completar un proyecto?
+                            </button>
+                            <div class="collapse" id="Example4">
+                                El tiempo de ejecución varía según la magnitud y complejidad del proyecto. Pequeñas
+                                remodelaciones pueden completarse en 4 a 8 semanas, mientras que la construcción de una
+                                sede social desde cero puede tomar varios meses. Entregamos un cronograma detallado para
+                                cada obra.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="card p-2">
+                            <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#Example5"
+                                aria-expanded="false" aria-controls="Example5" style="text-decoration: none;">
+                                <span>&#x276F;</span> ¿Realizan mantenimiento de sedes sociales y centros comunitarios?
+                            </button>
+                            <div class="collapse" id="Example5">
+                                Sí, ofrecemos mantenimiento preventivo y correctivo, incluyendo reparaciones
+                                estructurales, impermeabilización, pintura, mejoras en accesibilidad y adecuaciones
+                                eléctricas y sanitarias para garantizar la seguridad y funcionalidad de los espacios.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="card p-2">
+                            <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#Example6"
+                                aria-expanded="false" aria-controls="Example6" style="text-decoration: none;">
+                                <span>&#x276F;</span> ¿Dónde están ubicados?
+                            </button>
+                            <div class="collapse" id="Example6">
+                                Estamos ubicados en la parcela 14 en el Alba 2 en la comuna de colina, región
+                                metropolitana
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="socios">
+        <div class="container p-5">
+            <h4>Nuestros aliados</h4>
+            <div class="row justify-content-center">
+                <div class="col-md-3 col-11">
+                    <h6>Constructoras</h6>
+                    <ul>
+                        <li>
+                            <a class="dropdown-item"
+                                href="https://inewzak.github.io/ConstructoraArenaLtdaLimitada/">Arena
+                                LTDA Limitada</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="https://inewzak.github.io/ConstructoraLasBrisasSPA/">Las
+                                Brisas
+                                SPA</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="https://inewzak.github.io/ConstructoraPttSPA/"> PTT SPA</a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="https://inewzak.github.io/ConstructoraRapelSPA/"> Rapel
+                                SPA</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-11">
+                    <h6>Consultora</h6>
+                    <ul>
+                        <li>
+                            <a class="dropdown-item" href="https://inewzak.github.io/ConsultoraArenaSPA/">Arena SPA</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-11">
+                    <h6>Importadora</h6>
+                    <ul>
+                        <li>
+                            <a class="dropdown-item" href="https://inewzak.github.io/ImportadoraSanVicenteSPA/">San
+                                Vicente
+                                SPA</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="whatsapp-button">
+        <a href="https://wa.me/+56977798555" target="_blank" title="Chat con nosotros en WhatsApp">
+            <img src="https://inewzak.github.io/ConstructoraCorralonesSPA/img/whatsapp.png" alt="WhatsApp"
+                class="whatsapp-icon">
+        </a>
+    </div>
+
+    <div class="p-5"></div>
+
+    <footer>
+        <div class="container p-5">
+            <div class="row">
+                <div class="col-md-4 col-12">
+                    <img src="img/logocorralones.png" alt="Logo" class="logofooter">
+                </div>
+                <div class="col-md-8 col-12" style="align-content: center;">
+                    <div class="row">
+                        <div class="col-md-3 col-12">
+                            <h5>Enlaces</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="index.html" class="text-white">Inicio</a>
+                                </li>
+                                <li>
+                                    <a href="servicios.html" class="text-white">Servicios</a>
+                                </li>
+                                <li>
+                                    <a href="nosotros.html" class="text-white">Nosotros</a>
+                                </li>
+                                <li>
+                                    <a href="contacto.html" class="text-white">Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3 col-12">
+                            <h5>Fotografias</h5>
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="galeria.html" class="text-white">Galeria</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6 col-12">
+                            <h5>Contactos</h5>
+                            <ul class="list-unstyled" style="font-size: 15px;">
+                                <li>
+                                    <a href="https://maps.app.goo.gl/i2DkwwE69YTUJibTA" target="_blank"
+                                        class="text-white">
+                                        <i class="fas fa-map-marker-alt"
+                                            style="margin-right: 10px; margin-left: 2px;"></i>
+                                        Alba 2, parcela 14, Colina, Región Metropolitana
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="tel:+56977798555" class="text-white">
+                                        <i class="fas fa-phone-alt" style="margin-right: 5px;"></i>
+                                        +56 9 7779 8555
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="mailto:constructorarapelchile@gmail.com" class="text-white">
+                                        <i class="fas fa-envelope" style="margin-right: 5px;"></i>
+                                        constructorarapelchile@gmail.com
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center" style="font-size: 11px;">
+                <p>
+                    &copy; 2025 Diseñado por Constructora Rapel SPA.
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <script>
+        var modal = document.getElementById("myModal");
+        var modalImg = document.getElementById("imgModal");
+        var captionText = document.getElementById("caption");
+
+        document.getElementById("myImg1").onclick = function () {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        };
+
+        document.getElementById("myImg2").onclick = function () {
+            modal.style.display = "block";
+            modalImg.src = this.src;
+            captionText.innerHTML = this.alt;
+        };
+
+        document.getElementsByClassName("close")[0].onclick = function () {
+            modal.style.display = "none";
+            modalImg.classList.remove("zoom");
+            modalImg.style.transform = "scale(1)";
+        };
+
+        window.onclick = function (event) {
+            if (event.target === modal) {
+                modal.style.display = "none";
+                modalImg.classList.remove("zoom");
+                modalImg.style.transform = "scale(1)";
+            }
+        };
+
+        modalImg.addEventListener("wheel", function (event) {
+            event.preventDefault();
+
+            var scale = 1;
+            if (event.deltaY < 0) {
+                scale = 1.1;
+            } else {
+                scale = 0.9;
+            }
+
+            var currentScale = parseFloat(getComputedStyle(modalImg).transform.split(",")[3]);
+            var newScale = currentScale * scale;
+
+            newScale = Math.min(Math.max(newScale, 1), 3);
+            modalImg.style.transform = `scale(${newScale})`;
+        });
+
+        let isDragging = false;
+        let startX, startY, initialX, initialY;
+
+        modalImg.addEventListener("mousedown", function (event) {
+            isDragging = true;
+            startX = event.clientX;
+            startY = event.clientY;
+            initialX = modalImg.offsetLeft;
+            initialY = modalImg.offsetTop;
+            modalImg.classList.add("grab");
+        });
+
+        document.addEventListener("mousemove", function (event) {
+            if (isDragging) {
+                var dx = event.clientX - startX;
+                var dy = event.clientY - startY;
+                modalImg.style.left = initialX + dx + "px";
+                modalImg.style.top = initialY + dy + "px";
+            }
+        });
+
+        document.addEventListener("mouseup", function () {
+            isDragging = false;
+            modalImg.classList.remove("grab");
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+img {
+    height: 300px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: -5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.descripcionestrabajos .card {
+    background: radial-gradient(circle, #f5b042, #f39c12, #e77e23);
+}
+
+.card h5 {
+    color: #bf3a2b !important ;
+}
+
+.card p {
+    color: #ffffff !important ;
+}
+
+.verproyectos img {
+    height: 200px;
+    width: 100%;
+}

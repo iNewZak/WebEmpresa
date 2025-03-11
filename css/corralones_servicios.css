@@ -1,0 +1,32 @@
+.ml1 {
+    margin-left: 10%;
+}
+
+.backcolor {
+    background-color: #34495E;
+    border-radius: 20px;
+}
+
+.backcolor p {
+    color: #ECF0F1 !important;
+}
+
+.planos img {
+    height: auto;
+    width: 100%;
+}
+
+.card {
+    padding: 20px;
+    text-align: center;
+    background-color: #34495E !important;
+}
+
+.card p {
+    color: #ECF0F1 !important;
+}
+
+.ministeriotrabajo {
+    height: auto;
+    width: 100%;
+}

@@ -1,0 +1,8 @@
+div#map {
+    height: 500px;
+    width: 100%;
+}
+
+.botonmap {
+    background: radial-gradient(circle, #bf3a2b, #d15400, #e77e23, #f39c12, #f5b042);
+}

@@ -1,0 +1,92 @@
+.tiposmulticanchas img {
+    height: 175px;
+    width: auto;
+    border-radius: 8px;
+}
+
+.nuestroservicios li {
+    padding: 5px;
+    margin-left: 5%;
+}
+
+footer li {
+    margin-left: 10%;
+}
+
+.contactanos {
+    background-image: url("/img/multicancha3.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    opacity: 0.75;
+}
+
+.beneficios .col-md-8,
+.col-md-2 {
+    padding: 10px;
+    align-content: center;
+}
+
+.beneficios .col-md-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.beneficios img {
+    height: 100px;
+    width: 100px;
+}
+
+.comolohacemos div {
+    padding: 10px;
+}
+
+.preguntas .card {
+    background-color: #0074E4;
+    color: #ffffff;
+}
+
+.preguntas button {
+    text-align: start !important;
+    color: #FFC107;
+    font-weight: 700;
+}
+
+.preguntas button:hover {
+    text-align: start !important;
+    color: #ffffff;
+}
+
+.logo {
+    height: auto;
+    width: 100%;
+}
+
+
+.padi5 {
+    padding: 50px;
+}
+
+@media (max-width: 768px) {
+    .beneficios img {
+        height: auto;
+        width: 100%;
+    }
+
+    .logo {
+        height: 0px;
+        width: 0px;
+    }
+
+    .logofooter {
+        height: auto;
+        width: 100%;
+        padding: 30px;
+    }
+
+    .padi5 {
+        padding: 0px;
+    }
+}

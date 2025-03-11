@@ -1,0 +1,32 @@
+.infojefes li {
+    padding: 5px;
+}
+
+.derecha {
+    margin-left: 10%;
+}
+
+.logo {
+    height: auto;
+    width: 100%;
+}
+
+.backcolor {
+    background-color: #34495E;
+    border-radius: 20px;
+}
+
+.valores p {
+    color: #ECF0F1 !important;
+}
+
+@media (max-width: 768px) {
+    .derecha {
+        margin-left: 0%;
+    }
+
+    .infojefes li {
+        padding: 5px;
+        font-size: 12px;
+    }
+}

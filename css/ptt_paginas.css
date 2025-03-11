@@ -1,0 +1,103 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+header {
+    background-color: #0074E4;
+    color: #FFFFFF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    text-align: end;
+    position: relative;
+    z-index: 1;
+}
+
+footer {
+    background-color: #0074E4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    color: #FFFFFF;
+    margin-top: auto;
+    padding: 10px 0;
+}
+
+.navbar-nav .nav-link {
+    color: #FFFFFF;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FFFFFF;
+}
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 5%;
+    right: 20px;
+    z-index: 1000;
+}
+
+.whatsapp-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50% 50% 50% 50%;
+    background-color: #32d36d;
+    transition: transform 0.3s ease;
+}
+
+.whatsapp-icon:hover {
+    transform: scale(1.1);
+}
+
+.blurred-background {
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #ffffff3f;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.blurred-background2 {
+    background-color: #ffffff3f;
+    backdrop-filter: blur(2px);
+    color: white;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+img {
+    border-radius: 8px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+    color: #FFC107 !important;
+    font-weight: 700 !important;
+    font-family: 'Times New Roman', Times, serif !important;
+}
+
+.logofooter {
+    height: auto;
+    width: 100%;
+}
+
+
+
+@media (max-width: 768px) {
+    .logofooter {
+        height: auto;
+        width: 100%;
+        padding: 30px;
+    }
+}

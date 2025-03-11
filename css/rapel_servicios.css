@@ -1,0 +1,52 @@
+.color2 {
+    background-color: #57c84d;
+    color: white;
+    border-radius: 20px;
+}
+
+.padi3 {
+    padding: 150px;
+}
+
+.imgplazas {
+    height: 200px;
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.05);
+    padding: 10px;
+}
+
+.modelos img {
+    height: 250px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: -3px 3px rgba(195, 195, 195, 0.5);
+}
+
+.d-none {
+    display: none;
+}
+
+.android {
+    margin-top: -100px;
+}
+
+@media (max-width: 768px) {
+
+    .imgplazas {
+        height: 125px;
+        width: 100%;
+    }
+
+    .android {
+        margin-top: -10px;
+    }
+    
+    .modelos img {
+        height: 200px;
+        width: 100%;
+        margin-bottom: 25px;
+        box-shadow: -3px 3px rgba(195, 195, 195, 0.5);
+    }
+}

@@ -1,0 +1,99 @@
+.quienessomos {
+    background-image: url("https://inewzak.github.io/ConstructoraArenaLtdaLimitada/img/topografia.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: auto;
+    width: 100%;
+    color: #ffffff;
+    margin: 0;
+}
+
+body p,
+li {
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body h3,
+h1 {
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #103c5c;
+}
+
+body h1 {
+    font-size: 50px;
+}
+
+.final {
+    margin-bottom: 100px;
+}
+
+.card {
+    background-color: rgba(128, 128, 128, 0.5) !important;
+}
+
+.card p {
+    color: #ffffff !important;
+    font-weight: 900;
+    font-size: 17px;
+}
+
+.card h3 {
+    color: #103c5c;
+    font-size: 30px;
+}
+
+.mision,
+.vision {
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    font-weight: 800;
+}
+
+.mision p,
+.vision p {
+    font-weight: 900;
+    color: black;
+}
+
+.mision::before,
+.vision::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.mision,
+.vision {
+    position: relative;
+    z-index: 2;
+}
+
+.mision {
+    background-image: url("https://inewzak.github.io/ConstructoraArenaLtdaLimitada/img/mision.png");
+}
+
+.vision {
+    background-image: url("https://inewzak.github.io/ConstructoraArenaLtdaLimitada/img/vision.png");
+}
+
+.icon {
+    height: 15px;
+    width: auto;
+    transition: transform 0.3s ease-in-out;
+}

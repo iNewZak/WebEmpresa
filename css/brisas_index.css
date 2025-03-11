@@ -1,0 +1,85 @@
+.preguntas .card {
+    background-color: #f5b042;
+    color: #ffffff;
+}
+
+.preguntas button {
+    text-align: start !important;
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none !important;
+}
+
+.preguntas button:hover {
+    text-align: start !important;
+    color: #ffffff;
+}
+
+.tiposedes img {
+    height: 350px;
+    width: 100%;
+}
+
+.loquehacemos .card {
+    background-color: #f5b042;
+    color: #ffffff;
+}
+
+.loquehacemos h5 {
+    color: #ffffff !important;
+    text-align: center;
+    font-weight: 900;
+}
+
+@media (max-width: 768px) {
+
+    .diagonal_text {
+        font-family: 'Times New Roman', Times, serif;
+        position: static;
+        display: inline-block;
+        color: #333;
+        font-weight: bold;
+        margin-top: 1px;
+    }
+
+    .diagonal_text2 {
+        font-family: 'Times New Roman', Times, serif;
+        position: static;
+        display: inline-block;
+        color: #333;
+        margin-top: 1px;
+    }
+
+    .diagonal_text:hover {
+        transform: rotate(0deg);
+    }
+
+    .diagonal_text2:hover {
+        transform: rotate(0deg);
+    }
+
+    .titulo {
+        color: black;
+        font-size: 50px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .letra {
+        font-size: 35px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .letra1 {
+        font-size: 50px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .padi2 {
+        padding-bottom: 50px;
+    }
+
+    .padi3 {
+        padding: 100px;
+    }
+}

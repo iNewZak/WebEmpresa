@@ -160,6 +160,11 @@ strong {
     font-family: 'Courier New', Courier, monospace !important;
 }
 
+footer h6{
+    font-size: 20px !important;
+    font-weight: 900;   
+}
+
 @media (max-width: 768px) {
     .padifooter {
         padding: 20px !important;
